@@ -3,7 +3,7 @@
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
-public class MD5HashGenerator {
+public class MD5HashGeneratorGPT {
     public static void main(String[] args) {
         String input = "Hello, World!";
         String md5Hash = generateMD5Hash(input);
